@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+header{
+    color: white;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-image: url("banner.jpeg");
+    font-size: larger;
+    font-weight: 200;
+}
+
+.links{
+    align-items: center;
+    height: 3rem;
+    background-color: #577ae4;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    font-weight: normal;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.2rem;
+    min-height: calc(100vh - 120px - 5rem);
+}
+
+
+.Curso{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Curso h1 {
+    font-weight: 120;
+    margin-bottom: 1rem;
+}
+
+table, td, tr, th {
+    width: max-content;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+td{
+    text-align: center;
+}
+
+.Ancoras{
+    display: block;
+}
+
+.Ancoras, div, p, a{
+    padding: 0.5 1.5rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
+}
+
+.Ancoras li{
+    margin: 0.6rem;
+}
+
+.Ancoras p{
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.Contato{
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset{
+    margin: 2rem;
+    border: 1px solid black ;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    margin-bottom: 0.5rem;
+}
+
+div textarea{
+    display:block;
+    flex-direction: column;
+    margin-top: 0.3rem; 
+}
+
+button{
+    margin: 1 1rem;
+    background-color: #577ae4;
+    color: white;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 52%;
+    align-items: space-between;
+    cursor: pointer;
+}
+
+select, input{
+    border: 1px solid #584d4d50;
+}
+
+button{
+    margin: 1 1rem;
+    background-color: #577ae4;
+    color: white;
+    height: 5rem;
+    width: 3rem;
+    border-radius: 52%;
+    align-items: space-between;
+    cursor: pointer;
+}
+
+
+footer{
+    color: white;
+    background-color: #577ae4;
+    height: 3rem;
+}
+
+
+
